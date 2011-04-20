@@ -1,0 +1,6 @@
+#Default properties for PortletLogin
+
+application_url=http\://www.jeu2debat.org/portal/
+application_name=expe_vero
+url_inscription=http\://www.jeu2debat.org/portal/portal/default/inscription
+application_description=d\u00E9bats sur des textes philosophiques avec les classes de V\u00E9ronique Pinet

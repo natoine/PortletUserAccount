@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app>
+  <portlet>
+    <portlet-name>PortletUserAccountLogin</portlet-name>
+    <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+  <portlet>
+    <portlet-name>PortletUserAccountInscription</portlet-name>
+  	<ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+</portlet-app>	

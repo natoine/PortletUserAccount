@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployments>
+   <deployment>
+      <if-exists>overwrite</if-exists>
+      <parent-ref>default</parent-ref>
+       <page>
+         <page-name>Inscription</page-name>
+      	<window>
+        	 <window-name>InscriptionWindow</window-name>
+        	 <instance-ref>PortletUserAccountInscriptionInstance</instance-ref>
+         	<region>left</region>
+         	<height>0</height>
+      	</window>
+      </page>
+   </deployment>
+</deployments>

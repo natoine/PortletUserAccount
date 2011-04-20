@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployments>
+   <deployment>
+      <if-exists>keep</if-exists>
+      <parent-ref>default</parent-ref>
+       <page>
+         <page-name>default</page-name>
+      	<window>
+        	 <window-name>LoginWindow</window-name>
+        	 <instance-ref>PortletUserAccountLoginInstance</instance-ref>
+         	<region>left</region>
+         	<height>0</height>
+      	</window>
+      </page>
+   </deployment>
+</deployments>
