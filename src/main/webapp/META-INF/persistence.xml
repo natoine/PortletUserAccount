@@ -1,17 +1,29 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
-    http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
-   version="1.0">
+    http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+   version="2.0">
+   <!-- xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+    http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" version="2.0"-->
    <persistence-unit name="user">
+   	   <properties>
+       <property name="hibernate.ejb.cfgfile"
+               value="/hibernate_user_jeu2debat.cfg.xml"/>
+         <!--  <property name="hibernate.ejb.cfgfile"
+               value="/hibernate_user.cfg.xml"/>
+            -->
+      </properties>
+   	  <!--<provider>org.hibernate.ejb.HibernatePersistence</provider>
+   	  <jta-data-source>jdbc/DSnatoine_annotations</jta-data-source>
       <properties>
       <property name="hibernate.ejb.cfgfile"
                value="/hibernate_user_jeu2debat.cfg.xml"/>
-         <!--  <property name="hibernate.ejb.cfgfile"
-               value="/hibernate_user.cfg.xml"/> -->
-      </properties>
+      </properties> -->
    </persistence-unit>
     <persistence-unit name="resource">
+     <!-- <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <jta-data-source>jdbc/DSnatoine_annotations</jta-data-source>
+      -->
       <properties>
       	<property name="hibernate.ejb.cfgfile"
                value="/hibernate_resource_jeu2debat.cfg.xml"/>

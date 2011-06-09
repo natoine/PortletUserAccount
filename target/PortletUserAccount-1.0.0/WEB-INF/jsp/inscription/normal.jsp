@@ -101,12 +101,12 @@ else
 	</tr>
 	<tr>
 		<td>password</td>
-		<td><input type=text name="password_1" value=""></td>
+		<td><input type=password name="password_1" value=""></td>
 		<td>*</td>
 	</tr>
 	<tr>
 		<td>password</td>
-		<td><input type=text name="password_2" value=""></td>
+		<td><input type=password name="password_2" value=""></td>
 		<td>*</td>
 	</tr>
 	<tr>

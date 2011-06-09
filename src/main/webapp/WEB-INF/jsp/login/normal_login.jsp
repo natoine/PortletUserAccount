@@ -103,7 +103,7 @@
 				%>
 			</tr>
 			<tr>
-				<td><img alt=password src="<%=request.getContextPath()%>/images/password_24x24.png" /></td><td><input type=text name="password"></td>
+				<td><img alt=password src="<%=request.getContextPath()%>/images/password_24x24.png" /></td><td><input type=password name="password"></td>
 			</tr>
 			<tr>
 				<td>Se connecter :</td><td><input type="submit" name="op" value="Login" /></td>

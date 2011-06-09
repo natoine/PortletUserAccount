@@ -15,17 +15,19 @@
 		<property name="connection.password">p</property>
     -->
 		<!-- MySQL connection settings -->
-<!-- 	<property name="connection.url">jdbc:mysql://localhost/jboss_natoine_sete?autoReconnect=true</property>
+	 	<!-- <property name="connection.url">jdbc:mysql://localhost:3306/jboss_natoine_sete</property>
 		<property name="connection.username">jboss_natoine</property>
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="connection.password">antoine151184</property>
+		
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
- -->
+ 		 -->
 		
 		<!-- Datasource Mysql -->
-		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+ 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="connection.datasource">java:DSnatoine_annotations</property>
-		
+ 
+ 		
         <!-- HSQL connection settings -->
         <!-- 
         <property name="connection.driver_class">org.hsqldb.jdbcDriver</property>

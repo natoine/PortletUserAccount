@@ -15,12 +15,12 @@
           <string>images/password_lost_24x24.png</string>
           <string>images/user.png</string>
           <string>images/user_add_24x24.png</string>
-          <string>META-INF/c3p0.properties</string>
           <string>META-INF/contact.txt</string>
           <string>META-INF/COPYING</string>
           <string>META-INF/COPYING.LESSER</string>
           <string>META-INF/MANIFEST.MF</string>
           <string>META-INF/persistence.xml</string>
+          <string>META-INF/project-goal.txt</string>
           <string>properties/(jeu2debat)defaultProperties</string>
           <string>properties/defaultProperties</string>
           <string>WEB-INF/annotation-object.xml</string>
